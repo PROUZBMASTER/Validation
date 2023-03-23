@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+
+   <div class="card">
+    <h1>Login</h1>
+    <form name="myForm" onsubmit="return validateForm()">
+        <input style="margin-top: 20px;" type="text" id="name" name="name" placeholder="Name...">
+      <br>
+        <input type="email" id="email" name="email" placeholder="Email...">
+      <br>
+        <input type="tel" id="phone" name="phone" placeholder="Phone...">
+      <br>
+        <input class="sub" type="submit" value="Submit">
+      </form>
+   </div>
+
+      <script src="./app.js"></script>
+</body>
+</html>
